@@ -1,13 +1,11 @@
-## PassTron-Security-Password-Manager
+# PassTron
 PassTron Security is  a Password manager that stores user's password locally instead of a live database. 
 It can auto generate secured passwords and UI experience is stable.
 
-## PassTron-v0.1.0 Installer
-
-https://drive.google.com/drive/u/0/folders/1OtlP-BWU4ypTWWkb5BsbV57WjSZbsrFq
+## Installation
+Click on this [link](Installers/Win/PassTron-v0.1.0.msi) to download the **`MSI`** installer for **`Windows`**
 
 ## UI and Display
-
 ### 1. HomeTab 
 ![homepage](images/home.png)
 
