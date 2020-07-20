@@ -6,8 +6,6 @@ It can auto generate secured passwords and UI experience is stable.
 Click on the below link to download the **`MSI`** installer for **`Windows`**  
 [**`PassTron-v0.1.0.msi`**](Installers/Win/PassTron-v0.1.0.msi)
 
-<a href="https://github.com/deepraj1729/PassTron/blob/master/Installers/Win/PassTron-v0.1.0.msi" style="color:violet;" download>PassTron-v0.1.0.msi</a>
-
 ## UI and Display
 ### 1. HomeTab 
 ![homepage](images/home.png)
