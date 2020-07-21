@@ -1,0 +1,70 @@
+.belowTop {
+  margin-top: 20px;
+  background-color: rgb(21, 27, 27);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#getStarted {
+  text-align: center;
+  color: white;
+}
+
+#logoStarted {
+  color: aquamarine;
+  font-weight: 500;
+}
+
+.dispIcon {
+  background-color: rgb(21, 27, 27);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btnCreate {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 5px;
+  min-width: 100px;
+  border-color: white;
+  background-image: linear-gradient(to right, #263952 0%, #0a0a0a 100%);
+}
+
+.btnCreate:hover {
+  color: black;
+}
+
+.btnSaved {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 5px;
+  min-width: 100px;
+  border-color: white;
+  background-image: linear-gradient(to right, #1e5731 0%, #000000 100%);
+}
+
+.btnSaved:hover {
+  color: black;
+}
+.btnHelp {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 10px;
+  min-width: 100px;
+  border-color: white;
+  padding: 5px;
+  background-image: linear-gradient(to right, #0a3b7c 0%, #000000 100%);
+}
+
+.btnHelp:hover {
+  color: black;
+}

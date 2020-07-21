@@ -1,0 +1,50 @@
+.createPass {
+  background-color: rgb(21, 27, 27);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.logs {
+  text-align: center;
+  color: white;
+  background-color: rgb(21, 27, 27);
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  color:rgb(39, 191, 202);
+}
+
+.passform {
+  display: block;
+}
+
+.dropbtn {
+  margin-top: 10px;
+  background-color: #191d19;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.dropdown-content {
+  margin-top: 10px;
+  color: white;
+}
+
+#homeBtn {
+  text-decoration: none;
+  color: white;
+}
+
+#topHead {
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PassTron Security - Saved Passwords</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/font_awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../public/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../public/css/footer.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../public/css/savedPass.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="row row-cont">
+        <div class="col-md-1 sidenav">
+          <div class="container empty"></div>
+          <div class="container navicons">
+              <div class="icon my-2">
+                  <a href="../home.html">
+                    <i
+                      class="fa fa-home fa-2x"
+                      style="color: white; position: 30%;"
+                    >
+                    </i>
+                  </a>
+                </div>
+                <div class="icon my-4">
+                  <a href="./createPass.html">
+                    <i
+                      class="fa fa-edit fa-2x"
+                      style="color: white; position: 30%;"
+                    >
+                    </i>
+                  </a>
+                </div>
+                <div class = "icon my-4">
+                  <a href = "./searchPass.html">
+                  <i
+                    class="fa fa-search fa-2x"
+                    style="color: white; position: 30%;">
+                  </i>
+                </a>
+                </div>
+                <div class="icon my-4">
+                  <a href="./savedPass.html">
+                    <i
+                      class="fa fa-database fa-2x"
+                      style="color: white; position: 30%;"
+                    >
+                    </i>
+                  </a>
+                </div>
+                <div class="icon my-4">
+                    <a href="./helpDesk.html">
+                      <i class="fa fa-question-circle fa-2x" style="color: white;">
+                      </i>
+                    </a>
+                  </div>
+                  <div class="icon my-4">
+                    <a href="./settings.html">
+                      <i class="fa fa-cogs fa-2x" style="color: white;"> </i>
+                    </a>
+                  </div>
+                  <div class="icon my-4">
+                    <a href="./developer.html">
+                      <i class="fa fa-laptop fa-2x" style="color: white;"> </i>
+                    </a>
+                  </div>
+              </div>
+            </div>
+        <div class="col-md-10 midbody" >
+          <div
+            class="jumbotron topJumbo" >
+            <h1 id = "logoTopHead">
+              PassTron Security
+            </h1>
+          </div>
+          <div class = "belowTop" >
+            <div id = "saveHead">
+              Your Saved Passwords
+            </div>
+            <div id = "dbTable" style = "border-radius: 10px;">
+              <table class="table table-hover table-dark" style = "border-radius: 7px;">
+                <thead style = "background-color: black;">
+                  <tr>
+                    <th scope="col" style = "text-align:center;">Sl No.</th>
+                    <th scope="col" style = "text-align:center;">Tag Name</th>
+                    <th scope="col" style = "text-align:center;">Date Created</th>
+                    <th scope="col" style = "text-align:center;">Password</th>
+                    <th scope="col" style = "text-align:center;">Copy to Clipboard</th>
+                    <th scope="col" style = "text-align:center;">Options</th>
+                  </tr>
+                </thead>
+                <tbody id = "bodyData">
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div id = "noDispMsg" style = "min-height: 25vh;"></div>
+          <div class="footer">
+              <div class="copyright">
+                Copyright &copy;
+                <script>
+                  const year = new Date().getFullYear();
+                  document.write(year);
+                </script>
+                <a id="footLogo">PassTron Security</a>. All Rights Reserved
+              </div>
+          </div>
+      </div>
+      <div class="col-md-1 sidenav">
+      </div>
+    </main>
+    <script src = "../public/js/showSavedPass.js"></script>
+  </body>
+</html>

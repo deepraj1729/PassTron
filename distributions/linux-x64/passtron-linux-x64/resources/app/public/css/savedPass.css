@@ -1,0 +1,22 @@
+.belowTop {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(21, 27, 27);
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+#saveHead{
+    text-align: center;
+    color: white;
+    padding-bottom:10px;
+    font-size: 40px;
+}
+
+#noDispMsg{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}

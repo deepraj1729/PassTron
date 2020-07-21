@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PassTron Security - Password Manager</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/font_awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./public/css/home.css" />
+    <link rel="stylesheet" type="text/css" href="./public/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./public/css/footer.css" />
+  </head>
+  <body>
+    <main>
+      <div class="row row-cont">
+        <div class="col-md-1 sidenav">
+          <div class="container empty"></div>
+          <div class="container navicons">
+            <div class="icon my-2">
+              <a href="./home.html">
+                <i class="fa fa-home fa-2x" style="color: white;"> </i>
+              </a>
+            </div>
+            <div class="icon my-4">
+              <a href="./views/createPass.html">
+                <i class="fa fa-edit fa-2x" style="color: white;"> </i>
+              </a>
+            </div>
+            <div class="icon my-4">
+              <a href="./views/searchPass.html">
+                <i class="fa fa-search fa-2x" style="color: white;"> </i>
+              </a>
+            </div>
+            <div class="icon my-4">
+              <a href="./views/savedPass.html">
+                <i class="fa fa-database fa-2x" style="color: white;"> </i>
+              </a>
+            </div>
+            <div class="icon my-4">
+              <a href="./views/helpDesk.html">
+                <i class="fa fa-question-circle fa-2x" style="color: white;">
+                </i>
+              </a>
+            </div>
+            <div class="icon my-4">
+              <a href="./views/settings.html">
+                <i class="fa fa-cogs fa-2x" style="color: white;"> </i>
+              </a>
+            </div>
+            <div class="icon my-4">
+              <a href="./views/developer.html">
+                <i class="fa fa-laptop fa-2x" style="color: white;"> </i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 midbody">
+          <div class="jumbotron topJumbo">
+            <h1 id="logoTopHead">
+              PassTron Security
+            </h1>
+          </div>
+
+          <div class="belowTop">
+            <h3 id="getStarted">
+              Get Started with
+              <a id="logoStarted">PassTron Security</a>
+              Password Manager
+            </h3>
+          </div>
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4">
+              <div class="container dispIcon">
+                <div class="row" style="justify-content: center;">
+                  <img src="./svg/key.svg" height="200px" width="200px" />
+                </div>
+                <div class="row my-3" style="justify-content: center;">
+                  <a href="./views/createPass.html" class="btn btnCreate"
+                    >Create Password</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="container dispIcon">
+                <div class="row" style="justify-content: center;">
+                  <img
+                    src="./svg/multimedia.svg"
+                    height="200px"
+                    width="200px"
+                  />
+                </div>
+                <div class="row my-3" style="justify-content: center;">
+                  <a href="./views/savedPass.html" class="btn btnSaved"
+                    >Saved Passwords</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="container dispIcon">
+                <div class="row" style="justify-content: center;">
+                  <img
+                    src="./svg/communications.svg"
+                    height="200px"
+                    width="200px"
+                  />
+                </div>
+                <div class="row my-3" style="justify-content: center;">
+                  <a href="./views/helpDesk.html" class="btn btnHelp"
+                    >Help Desk</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="copyright">
+              Copyright &copy;
+              <script>
+                const year = new Date().getFullYear();
+                document.write(year);
+              </script>
+              <a id="footLogo">PassTron Security</a>. All Rights Reserved
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1 sidenav"></div>
+      </div>
+    </main>
+  </body>
+</html>

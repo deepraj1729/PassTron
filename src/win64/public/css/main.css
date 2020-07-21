@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.row-cont {
+  min-height: 100vh;
+}
+
+main {
+  background-color: rgb(30, 39, 39);
+}
+.sidenav {
+  display: block;
+  background-color: rgb(21, 27, 27);
+}
+
+.midbody {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.topJumbo {
+  margin-top: 20px;
+  background-color: rgb(21, 27, 27);
+  border-radius: 10px;
+}
+
+#logoTopHead {
+  text-align: center;
+  font-size: 70px;
+  color: aquamarine;
+  font-weight: 500;
+}
+
+.empty {
+  height: 20vh;
+}
+
+.navicons {
+  text-align: center;
+  justify-content: center;
+}
+
+
+#footLogo{
+  color:rgb(39, 191, 202);
+  font-weight: 500;
+}

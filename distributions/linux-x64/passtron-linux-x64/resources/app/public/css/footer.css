@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 20px;
+  background-color: rgb(21, 27, 27);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+}
