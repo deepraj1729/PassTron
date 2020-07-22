@@ -102,7 +102,7 @@ Debian package is yet to be built, but the distribution is created for now.
       
       npm run start
 
- ## Linux:
+## Linux:
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
@@ -192,6 +192,7 @@ Required engine `configurations` to build distributions (any platform)
 - Check if the application works:
       
       npm start
+      
     or 
       
       npm run start
@@ -215,7 +216,7 @@ Required engine `configurations` to build distributions (any platform)
  - Navigate to this directory and then click on the `passtron.exe`
  - For future use, add this file location in your PATH variable to access it everytime and save passwords in future.
  
- ## Linux:
+## Linux:
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
@@ -241,6 +242,7 @@ Required engine `configurations` to build distributions (any platform)
 - Check if the application works:
       
       npm start
+      
     or 
       
       npm run start
@@ -289,6 +291,7 @@ Required engine `configurations` to build distributions (any platform)
 - Check if the application works:
       
       npm start
+      
     or 
       
       npm run start
@@ -312,8 +315,8 @@ Required engine `configurations` to build distributions (any platform)
  - For future use, add this file location in your `PATH` variable to access it everytime and save passwords in future.
 
 # Ways to Contribute:
-- Create an issue [here](https://github.com/deepraj1729/PassTron/issues)
-- Create a pull request [here](https://github.com/deepraj1729/PassTron/pulls)
+- Create issues [here](https://github.com/deepraj1729/PassTron/issues)
+- Create pull-requests [here](https://github.com/deepraj1729/PassTron/pulls)
  
 ### Made With ❤️ by [@deepraj1729](www.github.com/deepraj1729)
  
