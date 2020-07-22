@@ -22,39 +22,39 @@ PassTron Security is  a Password manager that stores user's password locally ins
 **`Using MSI installer`**
 - Click on the below link to download the **`MSI`** installer for **`Windows`**  
 [**`PassTron-v0.1.0.msi`**](Installers/Win/PassTron-v0.1.0.msi)
-- Once installed, open your Start menu and in your `search explorer` type `PassTron` and click on the `PassTron` executable file.
+- Once installed, open your `Start Menu` and in your `search explorer` type `PassTron` and click on the `PassTron` executable file in the search result.
 - If everything works fine, the application should start.
-- If you face any error while opening, you need to build the distribution which is super simple. Check the link for [build windows distribution](#build-distributions)
+- If you face any error while opening, you need to build the distribution which is super simple. Check this link: [build windows distribution](#build-distributions)
 
-### Optional Info
-- Distribution for windows is also present inside `distributions` directory, (win64) <br>
+#### Optional Info
+- Distribution for windows is also present inside `distributions/win64` directory, <br>
 
  ![win64](images/win32.png)
-- Navigate to `win64` directory and then double-click on the `passtron.exe` executible file.
-- You can also build your package. Check the link for [build windows distribution](#build-distributions)
+- Navigate to `win64/` directory and then double-click on the `passtron.exe` executible file.
+- You can also build your package. Check this link: [build windows distribution](#build-distributions)
 
 
 ### 2. Linux (Debian package):
 Debian package is yet to be built, but the distribution is created for now.
-[**`PassTron-v0.1.0-linuxx64`**](distributions/linux-x64/passtron-linux-x64)
+[**`PassTron-v0.1.0-linux-x64`**](distributions/linux-x64/passtron-linux-x64)
 - Clone the repository:
 
       git clone https://github.com/deepraj1729/PassTron.git
-- Navigate to `distributions` and then `linux`
+- Navigate to `distributions/linux-x64` directory.  
       
       PassTron/distributions/
           |___ linux-x64
-                  |___ passtron-linux-x64
- - Inside the `linux-x64` directory,  you will find a executible file, `passtron`: <br>
+                  |___ passtron-linux-x64/
+ - Inside the `passtron-linux-x64` directory,  you will find a executible file, `passtron`: <br>
  
  ![linux](images/linux.png)
  
  - Open the `passtron` file by double clicking it. If everything works fine, the application should start.
- - If you face any error while opening, you need to build the distribution which is super simple. Check the link for [build linux distribution](#build-distributions)
+ - If you face any error while opening, you need to build the distribution which is super simple. Check this link: [build linux distribution](#build-distributions)
  
- ### 3. MacOS:
+### 3. MacOS:
  Package for Mac is not yet built due to OS platform reasons. But creating distribution is super simple.
- Check the link for [build MacOS distribution](#build-distributions)
+ Check this link: [build MacOS distribution](#build-distributions)
 
 # UI and Display:
 ## 1. HomeTab 
@@ -78,7 +78,7 @@ Debian package is yet to be built, but the distribution is created for now.
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
-- Navigate to `src` directory and then `win64`:
+- Navigate to `src/` directory and then to `win64/`:
       
       src
        |___win64
@@ -98,7 +98,8 @@ Debian package is yet to be built, but the distribution is created for now.
 - Check if the application works:
       
       npm start
-    or 
+
+  or 
       
       npm run start
 
@@ -106,7 +107,7 @@ Debian package is yet to be built, but the distribution is created for now.
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
-- Navigate to `src` directory and then `linux`:
+- Navigate to `src/` directory and then to `linux/`:
       
       src
        |___linux
@@ -128,7 +129,8 @@ Debian package is yet to be built, but the distribution is created for now.
 - Check if the application works:
       
       npm start
-    or 
+
+  or 
       
       npm run start
 
@@ -136,7 +138,7 @@ Debian package is yet to be built, but the distribution is created for now.
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
-- Navigate to `src` directory and then `macOS`:
+- Navigate to `src/` directory and then to `macOS/`:
       
       src
        |___macOS
@@ -158,7 +160,8 @@ Debian package is yet to be built, but the distribution is created for now.
 - Check if the application works:
       
       npm start
-    or 
+
+  or 
       
       npm run start
 
@@ -172,7 +175,7 @@ Required engine `configurations` to build distributions (any platform)
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
-- Navigate to `src` directory and then `win64`:
+- Navigate to `src/` directory and then `win64/`:
       
       src
        |___win64
@@ -193,7 +196,7 @@ Required engine `configurations` to build distributions (any platform)
       
       npm start
       
-    or 
+  or 
       
       npm run start
 - If the application works fine, let's build it
@@ -214,7 +217,7 @@ Required engine `configurations` to build distributions (any platform)
             |___ package.json
 
  - Navigate to this directory and then click on the `passtron.exe`
- - For future use, add this file location in your PATH variable to access it everytime and save passwords in future.
+ - For future use, add this file location in your `PATH` variable to access it everytime and save passwords in future.
  
 ## Linux:
 - Clone the repository:
