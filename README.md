@@ -318,6 +318,6 @@ Required engine `configurations` to build distributions (any platform)
 - Create issues [here](https://github.com/deepraj1729/PassTron/issues)
 - Create pull-requests [here](https://github.com/deepraj1729/PassTron/pulls)
  
-### Made With ❤️ by [@deepraj1729](www.github.com/deepraj1729)
+### Made With ❤️ by [@deepraj1729](https://github.com/deepraj1729)
  
 
