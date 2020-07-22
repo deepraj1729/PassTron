@@ -1,7 +1,7 @@
 # PassTron
 
 ![passtron](images/passtron.png)
-#### PassTron Security is  a Password manager that stores user's password locally instead of a live database. It can auto generate secured passwords and UI experience is stable.
+PassTron Security is  a Password manager that stores user's password locally instead of a live database. It can auto generate secured passwords and UI experience is stable.
 
 # Distributions:
 **Existing distributions:** <br>
@@ -18,7 +18,7 @@
 
 
 # Installation
-### 1. Windows32-x64 (Both 32 bit and 64 Bit)
+### 1. Windows32-x64 (Both 32 bit and 64 Bit):
 **`Using MSI installer`**
 - Click on the below link to download the **`MSI`** installer for **`Windows`**  
 [**`PassTron-v0.1.0.msi`**](Installers/Win/PassTron-v0.1.0.msi)
@@ -34,7 +34,7 @@
 - You can also build your package. Check the link for [build windows distribution](#build-distributions)
 
 
-### 2. Linux (Debian package)
+### 2. Linux (Debian package):
 Debian package is yet to be built, but the distribution is created for now.
 [**`PassTron-v0.1.0-linuxx64`**](distributions/linux-x64/passtron-linux-x64)
 - Clone the repository:
@@ -52,11 +52,11 @@ Debian package is yet to be built, but the distribution is created for now.
  - Open the `passtron` file by double clicking it. If everything works fine, the application should start.
  - If you face any error while opening, you need to build the distribution which is super simple. Check the link for [build linux distribution](#build-distributions)
  
- ### 3. MacOS 
+ ### 3. MacOS:
  Package for Mac is not yet built due to OS platform reasons. But creating distribution is super simple.
  Check the link for [build MacOS distribution](#build-distributions)
 
-# UI and Display
+# UI and Display:
 ## 1. HomeTab 
 ![homepage](images/home.png)
 
@@ -70,6 +70,10 @@ Debian package is yet to be built, but the distribution is created for now.
 ![developer](images/dev.png)
 
 # Usage for `Developers`:
+## Pre-Requisites:
+- Node.js version: Any latest `LTS` version
+- npm version: Any latest `LTS` version
+  
 ## Windows32-x64:
 - Clone the repository:
     
@@ -128,7 +132,7 @@ Debian package is yet to be built, but the distribution is created for now.
       
       npm run start
 
-## MacOS
+## MacOS:
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
@@ -164,7 +168,7 @@ Required engine `configurations` to build distributions (any platform)
   - Node.js version: `6.x.x`
   - npm version: `3.x.x`
   
-## Windows32-x64
+## Windows32-x64:
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
@@ -211,7 +215,7 @@ Required engine `configurations` to build distributions (any platform)
  - Navigate to this directory and then click on the `passtron.exe`
  - For future use, add this file location in your PATH variable to access it everytime and save passwords in future.
  
- ## Linux
+ ## Linux:
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
@@ -259,7 +263,7 @@ Required engine `configurations` to build distributions (any platform)
  - Navigate to this directory and then double-click on the `passtron` executible file
  - For future use, add this file location in your `PATH` variable to access it everytime and save passwords in future.
  
-## MacOS
+## MacOS:
 - Clone the repository:
     
       git clone https://github.com/deepraj1729/PassTron.git
